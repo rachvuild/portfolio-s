@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import caseJson from "./json/case.json";
+import Case from "./components/Case";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='parent-case'>
+      {caseJson.case.map((value, index) => (
+        <Case key={index} value={value} />
+      ))}
     </div>
   );
 }

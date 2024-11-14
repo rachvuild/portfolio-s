@@ -1,0 +1,73 @@
+{
+ "case": [  {
+        
+    "type" : "text",
+    "color":"#DD7474",
+        "text":"Sarah Demesy"
+    },
+    {
+        
+        "type" : "image",
+        "color":"#F5D2D4",
+        "image":"./img/magnifique3.jpg"
+    },
+    {
+        "type" : "icon",
+        "color":"#DD7474",
+        "icon" : "croix"
+    },
+    {
+        
+        "type" : "image",
+        "color":"#F5D2D4",
+        "image":"./img/premierTournage.jpg"
+    },
+    
+    
+    {
+        
+        "type" : "image",
+        "color":"#F5D2D4",
+        "image":"./img/deuxiemetournage.png"
+    },
+    {
+        "type" : "text",
+        "color":"#DD7474",
+        "text":"Scenographe"
+    },
+    {
+        
+        "type" : "image",
+        "color":"#F5D2D4",
+        "image":"./img/distopi.png"
+    },
+    {
+        "type" : "icon",
+        "color":"#DD7474",
+        "icon" : "fleur"
+    },
+   
+    
+    {
+        "type" : "text",
+        "color":"#DD7474",
+        "text":"Contact"
+    },
+    {
+        
+        "type" : "image",
+        "color":"#F5D2D4",
+        "image":"./img/cup.png"
+    },
+    {
+        "type" : "icon",
+        "color":"#DD7474",
+        "icon" : "smyle"},
+    {
+        
+        "type" : "image",
+        "color":"#F5D2D4",
+        "image":"./img/premierTournage.jpg"
+    }
+   ]
+}
